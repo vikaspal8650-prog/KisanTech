@@ -1,0 +1,16 @@
+{
+  "name": "fasal-guru-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "mongoose": "^9.11.2",
+    "multer": "^2.4.0"
+  }
+}

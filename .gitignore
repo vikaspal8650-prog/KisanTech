@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Environment files (keep safe templates in source control)
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+coverage/
+
+# Logs and local tooling
+*.log
+.vite/
+.DS_Store
+Thumbs.db
